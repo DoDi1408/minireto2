@@ -1,0 +1,43 @@
+.gridItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Fondo {
+    border-radius: 10%;
+    background-color: #ed0909;
+    height: 70vh;
+    width: 50vh;
+    display: flex;
+    padding-top: 0px;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.imagenPelicula {
+    width: 50%;
+    height: 50%;
+    object-fit: fill;
+}
+
+.texto {
+    font-family: Futura !important;
+    font-size: 15.5px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.botones-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}

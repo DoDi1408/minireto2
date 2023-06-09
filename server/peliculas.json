@@ -1,0 +1,40 @@
+{
+  "peliculas" : [
+    {
+      "name": "Whiplash",
+      "rating": "5",
+      "recommend": "yes",
+      "date": "23-05-23",
+      "release" : "2014",
+      "id": 1,
+      "img" : "https://i.pinimg.com/originals/cf/28/92/cf2892cda8e63214c9c3f5e55a76fb10.jpg"
+    },
+    {
+      "name": "Pulp Fiction",
+      "rating": "5",
+      "recommend": "yes",
+      "date": "18-07-23",
+      "release" : "1994",
+      "id": 2,
+      "img" : "https://i.pinimg.com/originals/91/8a/62/918a62df50f6de72db6057237f887732.png"
+    },
+    {
+      "name": "TrainSpotting",
+      "rating": "5",
+      "recommend": "yes",
+      "date": "08-01-22",
+      "release" : "1996",
+      "id": 3,
+      "img" : "https://i.pinimg.com/originals/e0/0e/28/e00e28e49c140f28903f1f154b2ca115.jpg"
+    },
+    {
+      "name": "Arrival",
+      "rating": "5",
+      "recommend": "yes",
+      "date": "31-01-17",
+      "release" : "2016",
+      "id": 4,
+      "img" : "https://i.pinimg.com/originals/a5/7e/0b/a57e0b06b9acfe0fa8c7250b7ef97efe.jpg"
+    }
+  ]
+}
