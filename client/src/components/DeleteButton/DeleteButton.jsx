@@ -9,7 +9,7 @@ import './styles.css';
 const DeleteButton = ({id}) => {
   const [open, setOpen] = React.useState(false);
 
-  const linkLocal = 'http://localhost:3001/api/'
+  const linkLocal = 'http://localhost:3006/api/'
   const linkServer = 'https://miniretointento2.herokuapp.com/api/'
 
   const handleExit = () => {
