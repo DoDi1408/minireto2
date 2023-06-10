@@ -1,4 +1,4 @@
-#MINI RETO 2
+MINI RETO 2
 
 /client 
 npm install
