@@ -1,10 +1,10 @@
 #MINI RETO 2
 
-#/client 
+/client 
 npm install
 npm run
 
-#/server
+/server
 npm install
 npm start
 
