@@ -5,6 +5,6 @@ npm install
 npm run
 
 /server
-´npm install´
+npm install
 npm start
 
