@@ -37,10 +37,10 @@ Pelicula.getAll = (result) => {
     });
 };
 
-Pelicula.updateById = (id, pelicula, result) => {
+Pelicula.updateById = (id, rating, result) => {
     sql.query(
-      "UPDATE peliculas SET name = ?, rating = ?, recommend = ? WHERE id = ?",
-      [pelicula.name, pelicula.rating, pelicula.recommend, id],
+      "UPDATE peliculas SET rating = ? WHERE id = ?",
+      [rating, id],
       (err, res) => {
         if (err) {
           console.log("error: ", err);
@@ -52,8 +52,8 @@ Pelicula.updateById = (id, pelicula, result) => {
           result({ kind: "not_found" }, null);
           return;
         }
-        console.log("updated pelicula: ", { pelicula });
-        result(null, { pelicula });
+        console.log("updated pelicula with id: ", id);
+        result(null, res);
       }
     );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import {Grid} from "@mui/material";
 import DeleteButton from "../DeleteButton/DeleteButton";
+import UpdateRating from "../UpdateRating/UpdateRating";
 import './styles.css';
 
 const PeliculaResena = ({pelicula}) => {
@@ -30,6 +31,7 @@ const PeliculaResena = ({pelicula}) => {
                 </div>
                 <div className="botones-container">
                     <DeleteButton id={pelicula.id}/>
+                    <UpdateRating id={pelicula.id}/>
                 </div>
             </div>
         </Grid>

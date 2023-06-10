@@ -18,7 +18,7 @@ export const createPelicula = (req, res) => {
     });
   
     // Save Pelicula in the database
-    Pelicula.create(pelicula, (err, data) => {
+    Pelicula.Create(pelicula, (err, data) => {
       if (err)
         res.status(500).send({
           message:
@@ -49,7 +49,7 @@ export const updatePelicula = (req, res) => {
         });
       }
     console.log(req.body);
-    Pelicula.updateById(req.params.id, new Pelicula(req.body), (err, data) => {
+    Pelicula.updateById(req.params.id, req.body.rating, (err, data) => {
         if (err) {
             if (err.kind === "not_found") {
               res.status(404).send({
@@ -60,7 +60,7 @@ export const updatePelicula = (req, res) => {
                 message: "Error updating pelicula with id " + req.params.id
               });
             }
-          } else res.send(data);
+          } else res.send({ message: `Pelicula was updated successfully!` });
         }
       );
 };
