@@ -1,10 +1,10 @@
 MINI RETO 2
 
-/client 
-npm install
-npm run
+/client
+1. Ejecuta 'npm install' para instalar las dependencias del cliente.
+2. Ejecuta 'npm run' para iniciar el cliente.
 
 /server
-npm install
-npm start
+1. Ejecuta 'npm install' para instalar las dependencias del servidor.
+2. Ejecuta 'npm start' para iniciar el servidor.
 
